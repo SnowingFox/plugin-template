@@ -11,6 +11,9 @@
   "peerDependencies": {
     "vue": "^3.2.0"
   },
+  "dependencies": {
+    "vue": "^3.2.0"
+  },
   "devDependencies": {
     "@antfu/eslint-config": "^0.21.1",
     "@babel/cli": "^7.17.6",
