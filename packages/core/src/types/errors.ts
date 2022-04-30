@@ -5,3 +5,5 @@ export interface FieldError {
   // types?: MultipleFieldErrors
   message?: string
 }
+
+export type FieldErrors<TFieldValues> = Partial<Record<keyof TFieldValues, FieldError>>
